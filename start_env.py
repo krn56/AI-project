@@ -1,5 +1,5 @@
 import gym, roboschool
-env = gym.make('RoboschoolAnt-v1')
+env = gym.make('RoboschoolHumanoid-v1')
 env.reset()
 for _ in range(1000):
     env.render()
